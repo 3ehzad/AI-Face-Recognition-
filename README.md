@@ -1,8 +1,8 @@
 # AI-Face-Recognition-
 you can read , readme.txt for more information
 but if you don't have enough time just run one of following codes in terminal:
-for low accuracy : python2 face.py --accuracy low
-for high accuracy: python2 face.py --accuracy high
+-for low accuracy : python2 face.py --accuracy low
+-for high accuracy: python2 face.py --accuracy high
 
 
 if you want to change the default training and test data set run:

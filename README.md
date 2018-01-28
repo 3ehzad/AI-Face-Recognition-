@@ -4,11 +4,11 @@ you can read , readme.txt for more information
 ## use LFW DataSet
 simply run this or see below for more details (first download http://vis-www.cs.umass.edu/lfw/lfw.tgz and name it "oldlfw" and move it in project directory) :
 
-python2 face.py --train 'lfw' --split 0.3 --minface 10 --confm "OFF"
+python2 face.py --train 'lfw' --split 0.3 --minface 10 --confm 'OFF' --showimgs 'OFF'
 
 or this:
 
-python2 face.py --train 'lfw' --split 0.3 --minface 100 --confm "ON"
+python2 face.py --train 'lfw' --split 0.3 --minface 100 --confm 'ON' --showimgs 'ON'
 
 ***
 if you want to use LFW data set first you need to download it from link here : http://vis-www.cs.umass.edu/lfw/lfw.tgz
@@ -32,17 +32,24 @@ python2 face.py --train 'lfw' --minface 50
 *** 
 if you want to see the confusion matrix (confusion matrix for more than 50 classes are not very useable!):
 
-python2 face.py --train 'lfw' --confm "ON"
+python2 face.py --train 'lfw' --confm 'ON'
 
 if not:
 
-python2 face.py --train 'lfw' --confm "OFF"
+python2 face.py --train 'lfw' --confm 'OFF'
+
 
 ***
-
 for low accuracy : python2 face.py --accuracy low
 
 for high accuracy: python2 face.py --accuracy high
+
+
+***
+if you don't want to see the predicted images at the end of the program and just want to see precision and recall:
+
+
+python2 face.py --showimgs 'OFF'
 
 
 

@@ -1,5 +1,10 @@
 # AI-Face-Recognition-
-you can read , readme.txt for more information
+if you want to use LFW dataset first download http://vis-www.cs.umass.edu/lfw/lfw.tgz and name it "oldlfw" and move it in project directory
+
+
+you can change config.py and simply run the program like this:
+
+python2 face.py
 
 ## use LFW DataSet
 simply run this or see below for more details (first download http://vis-www.cs.umass.edu/lfw/lfw.tgz and name it "oldlfw" and move it in project directory) :
